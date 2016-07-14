@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>洗澎澎</title>
+		<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../main_nav.css">
+		<link rel="stylesheet" href="shower.css">
+
+		<style>
+			
+
+		</style>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.dropdown-toggle').click(function(){
+					$(this).next().slideToggle();
+					$(this).next().children().slideToggle();
+				})
+				$('.dropdown-toggle').blur(function(){
+					$(this).next().slideToggle();
+					$(this).next().children().slideToggle();
+				})
+
+		</script>
+		<link rel="stylesheet" href="../../bootstrap-3.3.6-dist/css/bootstrap.min.css">
+		<script src="../../bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../../bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
+	</head>
+	<body data-spy="scroll" data-target="#navbar-example">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<!--					hamburger-->
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">GoGoMeowMeow</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="about"><a href="about.html">關於GM <span class="sr-only">(current)</span></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">推薦好物 <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="product/eat.html">吃的</a></li>
+								<li><a href="product/wear.html">穿的</a></li>
+								<li><a href="product/use.html">用的</a></li>
+								<li class="divider"></li>
+								<li><a href="product/weeklyItem.html">每周一物</a></li>
+							</ul>
+
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">毛孩美容去 <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="grooming/shower.html">洗澎澎</a></li>
+								<li><a href="grooming/hairCut.html">全身美容</a></li>
+								<li><a href="grooming/listPrice.html">細項價目</a></li>
+								<li class="divider"></li>
+								<li><a href="grooming/month.html">包月方案</a></li>
+								<li class="divider"></li>
+								<li><a href="grooming/onlineBookGroom.html">線上預約</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">毛孩旅館 <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="stay/roomType.html">房型介紹</a></li>
+								<li><a href="stay/rest.html">休息</a></li>
+								<li><a href="stay/lodging.html">住宿</a></li>
+								<li class="divider"></li>
+								<li><a href="stay/longStay.html">長期度假</a></li>
+								<li class="divider"></li>
+								<li><a href="stay/onlineBookRoom.html">線上訂房</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="beautician.html">美容師</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">我是會員 <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="vip/login.html">會員登入</a></li>
+								<li><a href="vip/basicInfo.html">會員及寵物基本資料</a></li>
+								<li><a href="vip/hisTrans.html">歷史交易</a></li>
+								<li class="divider"></li>
+								<li><a href="friendlySite.html">好站連結</a></li>
+							</ul>
+						</li>
+						<li><a href="hire.html">招募人才</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<div class="change">
+
+			<button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+				洗澡流程
+			</button>
+			<button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+				使用產品
+			</button>
+			<button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+				價目表
+			</button>
+			<button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+				注意事項
+			</button>
+
+
+
+
+
+
+		</div>
+
+
+		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+			<div class="container">
+				<div class="copyright">
+					<p >
+						xxxCOPYRIGHT &copy; 2016
+					</p>
+				</div>
+				<div class="sns">
+					<a href="#" class="fa fa-facebook fa-2x"></a>
+					<a href="#" class="fa fa-youtube fa-2x"></a>
+					<a href="#" class="fa fa-css3 fa-2x"></a>
+				</div>
+			</div>
+		</nav>
+
+
+	</body>
+</html>
